@@ -142,7 +142,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="kabisatLabel">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Tahun Kabisat ="/>
+            <Property name="text" type="java.lang.String" value="Tahun Kabisat"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -152,7 +152,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="selisihHariLabel">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Selisih Hari ="/>
+            <Property name="text" type="java.lang.String" value="Selisih Hari"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -162,7 +162,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="hariPertamaLabel">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Hari Pertama ="/>
+            <Property name="text" type="java.lang.String" value="Hari Pertama "/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -185,7 +185,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="hariTerakhirLabel">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Hari Terakhir ="/>
+            <Property name="text" type="java.lang.String" value="Hari Terakhir"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
@@ -195,7 +195,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="hasilLabel">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Jumlah Hari ="/>
+            <Property name="text" type="java.lang.String" value="Jumlah Hari"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">

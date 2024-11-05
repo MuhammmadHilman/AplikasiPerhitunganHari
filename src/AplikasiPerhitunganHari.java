@@ -81,7 +81,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
 
         YearMonth yearMonth = YearMonth.of(tahun, bulan);
         int jumlahHari = yearMonth.lengthOfMonth();
-        hasilLabel.setText("Jumlah Hari: " + jumlahHari);
+        hasilLabel.setText("Jumlah Hari = " + jumlahHari);
 
         // Mendapatkan hari pertama dan terakhir dalam bulan tersebut
         LocalDate tanggalPertama = yearMonth.atDay(1);
@@ -91,8 +91,8 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         String hariPertama = tanggalPertama.getDayOfWeek().getDisplayName(TextStyle.FULL, indonesianLocale).toUpperCase();
         String hariTerakhir = tanggalTerakhir.getDayOfWeek().getDisplayName(TextStyle.FULL, indonesianLocale).toUpperCase();
 
-        hariPertamaLabel.setText("Hari Pertama: " + hariPertama);
-        hariTerakhirLabel.setText("Hari Terakhir: " + hariTerakhir);
+        hariPertamaLabel.setText("Hari Pertama = " + hariPertama);
+        hariTerakhirLabel.setText("Hari Terakhir = " + hariTerakhir);
     }
         
         public boolean isTahunKabisat(int tahun) {
@@ -152,7 +152,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         long selisihHari = ChronoUnit.DAYS.between(tanggalAwal, tanggalAkhir);
 
         // Perbarui label selisih hari
-        selisihHariLabel.setText("Selisih Hari: " + selisihHari + " hari");
+        selisihHariLabel.setText("Selisih Hari = " + selisihHari + " hari");
     }
         
         
@@ -261,7 +261,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(6, 7, 0, 0);
         jPanel1.add(tahunSpinner, gridBagConstraints);
 
-        kabisatLabel.setText("Tahun Kabisat =");
+        kabisatLabel.setText("Tahun Kabisat");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 8;
@@ -271,7 +271,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(18, 39, 0, 0);
         jPanel1.add(kabisatLabel, gridBagConstraints);
 
-        selisihHariLabel.setText("Selisih Hari =");
+        selisihHariLabel.setText("Selisih Hari");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 9;
@@ -281,7 +281,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(18, 39, 128, 0);
         jPanel1.add(selisihHariLabel, gridBagConstraints);
 
-        hariPertamaLabel.setText("Hari Pertama =");
+        hariPertamaLabel.setText("Hari Pertama ");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 8;
@@ -307,7 +307,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(6, 7, 0, 0);
         jPanel1.add(hitungButton, gridBagConstraints);
 
-        hariTerakhirLabel.setText("Hari Terakhir =");
+        hariTerakhirLabel.setText("Hari Terakhir");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 13;
         gridBagConstraints.gridy = 9;
@@ -317,7 +317,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(18, 19, 128, 0);
         jPanel1.add(hariTerakhirLabel, gridBagConstraints);
 
-        hasilLabel.setText("Jumlah Hari =");
+        hasilLabel.setText("Jumlah Hari");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 7;
