@@ -180,6 +180,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Aplikasi Perhitungan Hari", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 24))); // NOI18N
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
         jLabel1.setText("Pilih Bulan");
@@ -187,7 +188,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(65, 63, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(96, 69, 0, 0);
         jPanel1.add(jLabel1, gridBagConstraints);
 
         jLabel2.setText("Masukan Tahun");
@@ -196,7 +197,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridy = 4;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(9, 39, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(9, 45, 0, 0);
         jPanel1.add(jLabel2, gridBagConstraints);
 
         bulanComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" }));
@@ -211,7 +212,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 6;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(62, 3, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(93, 3, 0, 0);
         jPanel1.add(bulanComboBox, gridBagConstraints);
 
         tanggalAwalCalendar.addPropertyChangeListener(new java.beans.PropertyChangeListener() {
@@ -233,7 +234,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(38, 39, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(38, 45, 0, 0);
         jPanel1.add(jLabel3, gridBagConstraints);
 
         jLabel4.setText("Tanggal Akhir :");
@@ -250,7 +251,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 26;
         gridBagConstraints.gridheight = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(38, 10, 0, 53);
+        gridBagConstraints.insets = new java.awt.Insets(38, 10, 0, 45);
         jPanel1.add(tanggalAkhirCalendar, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 3;
@@ -268,7 +269,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 4;
         gridBagConstraints.ipadx = 70;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 39, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 45, 0, 0);
         jPanel1.add(kabisatLabel, gridBagConstraints);
 
         selisihHariLabel.setText("Selisih Hari");
@@ -278,7 +279,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 10;
         gridBagConstraints.ipadx = 154;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 39, 128, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 45, 27, 0);
         jPanel1.add(selisihHariLabel, gridBagConstraints);
 
         hariPertamaLabel.setText("Hari Pertama ");
@@ -314,7 +315,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 12;
         gridBagConstraints.ipadx = 45;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 19, 128, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 19, 27, 0);
         jPanel1.add(hariTerakhirLabel, gridBagConstraints);
 
         hasilLabel.setText("Jumlah Hari");
@@ -324,7 +325,7 @@ public class AplikasiPerhitunganHari extends javax.swing.JFrame {
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.ipadx = 54;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(18, 39, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(18, 45, 0, 0);
         jPanel1.add(hasilLabel, gridBagConstraints);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
